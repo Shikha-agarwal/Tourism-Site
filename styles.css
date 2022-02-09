@@ -1,6 +1,8 @@
 body {
   text-align: center;
 }
+
+/* Main Section */
 #home {
   background-image: url("./images/mainback.jpeg");
   background-position: center;
@@ -12,6 +14,7 @@ body {
 #home .container-fluid {
   background: rgba(0, 0, 0, 0.58);
 }
+/* nav-bar */
 .navbar-brand {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
@@ -23,6 +26,7 @@ body {
 .navbar-dark .nav-item .nav-link {
   color: white;
 }
+/* text-container */
 .container1 {
   padding-top: 6rem;
   padding-bottom: 11rem;
@@ -40,6 +44,12 @@ body {
 }
 .bookNow-button {
   margin: 2rem;
+}
+
+
+/* destination and date */
+#discover {
+  background: linear-gradient(to right, rgb(231, 243, 250), white);
 }
 .dateTime {
   position: relative;
@@ -69,9 +79,7 @@ select {
 .dateTime .book:hover {
   background-color: rgb(24, 151, 134);
 }
-#discover {
-  background: linear-gradient(to right, rgb(231, 243, 250), white);
-}
+/* Best of week */
 .discoverMainPara {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -116,6 +124,9 @@ h3 {
 .fa-star.grey {
   color: lightgray;
 }
+
+
+/* Trip section */
 .tripSearch-button {
   border: 2px solid rgb(31, 165, 147);
 }
@@ -127,6 +138,9 @@ h3 {
   margin: auto;
   padding: 2rem;
 }
+
+
+/* Stories section*/
 #Stories,
 #trip {
   padding-top: 3rem;
@@ -150,11 +164,17 @@ h3 {
   height: 361px;
   margin: 1rem;
 }
+video::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;
+}
 .storyProfilePic {
   border-radius: 50%;
   background-color: whitesmoke;
 }
 
+
+/* Reviews-section */
 #Reviews {
   background: linear-gradient(to right, rgb(231, 243, 250), white);
   padding-top: 3rem;
@@ -193,6 +213,8 @@ h3 {
   width: 50px;
 }
 
+
+/* Discount offer section */
 .discntOuter {
   margin: 90px 7% auto;
   border-radius: 20px;
@@ -224,6 +246,9 @@ h3 {
 .expire {
   color: red;
 }
+
+
+/* footer-section */
 #footer {
   padding-top: 5rem;
   background-color: rgb(31, 165, 147);
@@ -242,6 +267,9 @@ h3 {
   text-align: center;
   font-size: smaller;
 }
+
+
+/* home-section */
 @keyframes homeImage {
   30% {
     background-image: url("./images/mainback1.jpeg");
@@ -252,6 +280,8 @@ h3 {
     background-size: cover;
   }
 }
+
+
 @media (min-width: 900px) {
   nav {
     margin: auto 2rem;
@@ -265,6 +295,8 @@ h3 {
     left: 30%;
   }
 }
+
+
 @media (max-width: 900px) {
   .mainHeading {
     font-size: 3rem;
@@ -280,7 +312,3 @@ h3 {
   }
 }
 
-video::-webkit-media-controls-panel {
-  display: none !important;
-  opacity: 1 !important;
-}
