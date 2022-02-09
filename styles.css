@@ -1,281 +1,286 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
 }
-#home{
-    background-image: url("./images/mainback.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    animation: homeImage 25s alternate infinite;
+#home {
+  background-image: url("./images/mainback.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  animation: homeImage 25s alternate infinite;
 }
-#home .container-fluid{
-  background: rgba(0,0,0,0.58);
+#home .container-fluid {
+  background: rgba(0, 0, 0, 0.58);
 }
-.navbar-brand{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size:x-large;
+.navbar-brand {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: x-large;
 }
-.nav-item{
-    padding: 1.5rem;
+.nav-item {
+  padding: 1.5rem;
 }
-.navbar-dark .nav-item .nav-link{
-    color: white;
+.navbar-dark .nav-item .nav-link {
+  color: white;
 }
-.container1{
-    padding-top: 6rem;
-    padding-bottom: 11rem;
+.container1 {
+  padding-top: 6rem;
+  padding-bottom: 11rem;
 }
-.explore{
-    font-size: 1.5rem;
+.explore {
+  font-size: 1.5rem;
 }
-.mainHeading{
-    font-size: 4rem;
-    line-height: 2;
+.mainHeading {
+  font-size: 4rem;
+  line-height: 2;
 }
-#home p{
-    width:70%;
-    margin: auto;
+#home p {
+  width: 70%;
+  margin: auto;
 }
-.bookNow-button{
-    margin: 2rem;
+.bookNow-button {
+  margin: 2rem;
 }
-.dateTime{
-   position: relative;
-   bottom: 58px;
-   width: 70%;
-   margin: auto;
-   border-radius: 20px;
-   background-color: white;
+.dateTime {
+  position: relative;
+  bottom: 58px;
+  width: 70%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: white;
 }
-.dateTime .col-lg-3{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+.dateTime .col-lg-3 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
-.dateTime input,select{
-    border-radius: 5px;
-    padding: 3px;
-    border: 2px solid rgb(31, 165, 147);
-    color: grey;
+.dateTime input,
+select {
+  border-radius: 5px;
+  padding: 3px;
+  border: 2px solid rgb(31, 165, 147);
+  color: grey;
 }
-.dateTime .book{
-    background-color:rgb(31, 165, 147) ;
-    color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+.dateTime .book {
+  background-color: rgb(31, 165, 147);
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.dateTime .book:hover{
-    background-color: rgb(24, 151, 134);
+.dateTime .book:hover {
+  background-color: rgb(24, 151, 134);
 }
-#discover{
-    background:linear-gradient(to right,rgb(231, 243, 250),white);
+#discover {
+  background: linear-gradient(to right, rgb(231, 243, 250), white);
 }
-#discover p{
-    padding-left: 1rem;
-    padding-right: 1rem;
+.discoverMainPara {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-h3{
-    font-weight: bold;
-    line-height: 2;
+h3 {
+  font-weight: bold;
+  line-height: 2;
 }
-.BOWContainer, .storyContainer{
-   width: 70%;
-   margin: 3rem auto;
+.BOWContainer,
+.storyContainer {
+  width: 70%;
+  margin: 3rem auto;
 }
-.BOWContainer img{
-    border-radius: 20px;
-    height: 200px;
-    width: 100%;
+.BOWContainer img {
+  border-radius: 20px;
+  height: 200px;
+  width: 100%;
 }
-.imageDetail{
-    background-color:rgb(31, 165, 147);
-    color: white;
-    border-radius: 10px;
-    width: 70%;
-    margin: auto;
-    padding: 8px;
-    text-align: left;
-    position: relative;
-    bottom: 45px;
+.imageDetail {
+  background-color: rgb(31, 165, 147);
+  color: white;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  padding: 8px;
+  text-align: left;
+  position: relative;
+  bottom: 45px;
 }
-.imageDetail p{
-    font-size: smaller;
-    margin-bottom: 0;
+.imageDetail p {
+  font-size: smaller;
+  margin-bottom: 0;
 }
-.imageDetail a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+.imageDetail a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
-.fa-star.gold{
-    color: gold;
+.fa-star.gold {
+  color: gold;
 }
-.fa-star.grey{
-    color: lightgray;
+.fa-star.grey {
+  color: lightgray;
 }
-.tripSearch-button{
-    border: 2px solid rgb(31, 165, 147);
+.tripSearch-button {
+  border: 2px solid rgb(31, 165, 147);
 }
-.tripSearch-button:hover{
-    background-color: rgb(31, 165, 147);
+.tripSearch-button:hover {
+  background-color: rgb(31, 165, 147);
 }
-#trip p{
-    width:65%;
-    margin: auto;
-    padding: 2rem;
+#trip p {
+  width: 65%;
+  margin: auto;
+  padding: 2rem;
 }
-#Stories, #trip{
-    padding-top: 3rem;
-    background: linear-gradient(to right,white,rgb(231, 243, 250));
+#Stories,
+#trip {
+  padding-top: 3rem;
+  background: linear-gradient(to right, white, rgb(231, 243, 250));
 }
-.story{
-    position: relative;
+.story {
+  position: relative;
 }
-.storyText{
-    color: white;
-    font-size: smaller;
-    text-align: left;
-    width: 55%;
-    margin: auto;
-    position: absolute;
-    left:23%;
-    bottom:1.5rem;
+.storyText {
+  color: white;
+  font-size: smaller;
+  text-align: left;
+  width: 55%;
+  margin: auto;
+  position: absolute;
+  left: 23%;
+  bottom: 1.5rem;
 }
-#Stories video{
-    border-radius: 20px;
-    height: 361px;
-    margin:1rem;
+#Stories video {
+  border-radius: 20px;
+  height: 361px;
+  margin: 1rem;
 }
-.storyProfilePic{
-    border-radius: 50%;
-    background-color: whitesmoke;
-}
-
-#Reviews{
-    background: linear-gradient(to right,rgb(231, 243, 250),white);
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-}
-.carousel-item{
-    text-align: left;
-    box-shadow: 5px 5px 15px rgb(115, 195, 224);
-    padding: 1rem;
-    width:60%;
-    position: relative;
-    left: 20%;
-    border: 2px solid rgb(31, 165, 147);
-    border-radius: 10px;
-}
-.carousel-item img,.imagepara{
-    display: inline-block;
-}
-.reviewdate{
-    font-size: small;
-    color: gray;
-}
-.carousel-item img{
-    position: relative;
-    bottom: 40px;
-    margin-right: 1rem;
-}
-.carousel-button{
-    position: absolute;
-    top: 35%;
-    background-color: rgb(115, 195, 224);
-    height: 50px;
-    width: 50px;
+.storyProfilePic {
+  border-radius: 50%;
+  background-color: whitesmoke;
 }
 
-.discntOuter{
-    margin: 90px 7% auto;
-    border-radius: 20px;
-    background: url("./images/discount.jpg");
+#Reviews {
+  background: linear-gradient(to right, rgb(231, 243, 250), white);
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.carousel-item {
+  text-align: left;
+  box-shadow: 5px 5px 15px rgb(115, 195, 224);
+  padding: 1rem;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  border: 2px solid rgb(31, 165, 147);
+  border-radius: 10px;
+}
+.carousel-item img,
+.imagepara {
+  display: inline-block;
+}
+.reviewdate {
+  font-size: small;
+  color: gray;
+}
+.carousel-item img {
+  position: relative;
+  bottom: 40px;
+  margin-right: 1rem;
+}
+.carousel-button {
+  position: absolute;
+  top: 35%;
+  background-color: rgb(115, 195, 224);
+  height: 50px;
+  width: 50px;
+}
+
+.discntOuter {
+  margin: 90px 7% auto;
+  border-radius: 20px;
+  background: url("./images/discount.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.discnt {
+  background: rgba(0, 0, 0, 0.58);
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 9%;
+  padding-right: 9%;
+  border-radius: 20px;
+}
+.discnt h2 {
+  padding: 1.5rem;
+}
+.discnt p {
+  width: 58%;
+  margin: auto;
+}
+#counter {
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+.expire {
+  color: red;
+}
+#footer {
+  padding-top: 5rem;
+  background-color: rgb(31, 165, 147);
+  color: white;
+}
+.footer-icon {
+  padding: 0.9rem;
+  padding-bottom: 2rem;
+}
+#footer p {
+  line-height: 2;
+  padding: 1rem;
+  padding-top: 0;
+}
+.copyright {
+  text-align: center;
+  font-size: smaller;
+}
+@keyframes homeImage {
+  30% {
+    background-image: url("./images/mainback1.jpeg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.discnt{
-    background: rgba(0,0,0,0.58);
-    color: white;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    padding-left: 9%;
-    padding-right: 9%;
-    border-radius: 20px;
-}
-.discnt h2{
-    padding: 1.5rem;
-}
-.discnt p{
-    width: 58%;
-    margin: auto;
-}
-#counter{
-    padding: 2rem;
-    font-size: 2.5rem;
-}
-.expire{
-    color: red;
-}
-#footer{
-    padding-top:5rem;
-    background-color: rgb(31, 165, 147);
-    color: white;
   }
-  .footer-icon{
-    padding: 0.9rem;
-    padding-bottom: 2rem;
+  60% {
+    background-image: url("./images/mainback2.jpeg");
+    background-size: cover;
   }
-  #footer p{
-    line-height: 2;
-    padding: 1rem;
-    padding-top: 0;
-  }
-  .copyright{
-    text-align: center;
-    font-size: smaller;
-  }
-@keyframes homeImage{
-    30%{
-        background-image: url("./images/mainback1.jpeg");
-        background-size: cover;
-    }
-    60%{
-        background-image: url("./images/mainback2.jpeg");
-        background-size: cover;
-    }
 }
-@media (min-width:900px){
-    nav{
-        margin:auto 2rem;
-    }
-    .dateTime .book{
-        margin-top: 32px;
-    }
-    .carousel-item{
-        width:40%;
-        position: relative;
-        left: 30%;
-    }
+@media (min-width: 900px) {
+  nav {
+    margin: auto 2rem;
+  }
+  .dateTime .book {
+    margin-top: 32px;
+  }
+  .carousel-item {
+    width: 40%;
+    position: relative;
+    left: 30%;
+  }
 }
-@media (max-width:900px){
-    .mainHeading{
-        font-size: 3rem;
-    }
-    #counter{
-        font-size: 2rem;
-    }
-    .nav-item{
-        padding: 5px;
-    }
-    #Stories video{
-        width: 225px;
-    }
+@media (max-width: 900px) {
+  .mainHeading {
+    font-size: 3rem;
+  }
+  #counter {
+    font-size: 2rem;
+  }
+  .nav-item {
+    padding: 5px;
+  }
+  #Stories video {
+    width: 225px;
+  }
 }
 
 video::-webkit-media-controls-panel {
-    display: none !important;
-    opacity: 1 !important;}
+  display: none !important;
+  opacity: 1 !important;
+}
